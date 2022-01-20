@@ -1,13 +1,18 @@
-.container {
-  width: 100%;
-  min-height: 100vh;
+body {
   background-image: url(../img/bg.jpg);
   background-size: cover;
+}
+
+.container {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 100vh;
   color: white;
   padding: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: "Cinzel", serif;
 
   &__top {
     width: 100%;
